@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "install",
+            "type": "shell",
+            "command": "${workspaceFolder}/.venv/Scripts/python -m pip install -r ${workspaceFolder}/requirements.txt",
+            "problemMatcher": []
+        }
+    ]
+}
